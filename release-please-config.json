@@ -1,0 +1,18 @@
+{
+  "$schema": "https://raw.githubusercontent.com/googleapis/release-please/main/schemas/config.json",
+  "separate-pull-requests": true,
+  "include-component-in-tag": true,
+  "tag-separator": "/",
+  "packages": {
+    "modules/networks": {
+      "release-type": "terraform-module",
+      "component": "networks",
+      "package-name": "networks"
+    },
+    "modules/servers": {
+      "release-type": "terraform-module",
+      "component": "servers",
+      "package-name": "servers"
+    }
+  }
+}
